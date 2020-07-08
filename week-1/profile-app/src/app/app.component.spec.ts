@@ -1,3 +1,11 @@
+  
+/**
+ * Title: app.component.spec.ts
+ * Author: Joann Saeou
+ * Date: 08 July 2020
+ * Description: Demonstrating  App component Exercise 1.5 
+ */
+
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
