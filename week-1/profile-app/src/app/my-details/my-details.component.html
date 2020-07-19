@@ -8,7 +8,20 @@
 
 
 <ul class="list-group">
-    <li class="list-group-item">Name: Joann Saeou</li>
-    <li class="list-group-item">Favorite Food: Curry  </li>
-    <li class="list-group-item" > Favorite Color: Rainbow </li>
+    <li class="list-group-item">Name: {{ myProfile.fullName }}</li>  <!-- variable created in app.componentst.ts -->
+    <li class="list-group-item">Favorite Food: {{ myProfile.favFood }}  </li>
+    <li class="list-group-item" > Favorite Color: {{ myProfile.favColor }} </li>
+    <li class="list-group-item">
+
+      Keywords: 
+
+      <span *ngFor="let word of myProfile.keywords"> 
+
+        {{ word }}
+        
+
+    </span>
+
+
+    </li>
   </ul>

@@ -1,0 +1,15 @@
+h1 { color: teal; 
+
+
+}
+
+
+
+.nav-link {  color: teal;
+    border: solid 1px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 10px; 
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 9px; 
+}

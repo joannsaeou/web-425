@@ -1,17 +1,13 @@
-
-/**
- * Title: app.component.spec.ts
- * Author: Joann Saeou
- * Date: 08 July 2020
- * Description: Demonstrating  App component Exercise 1.5
- */
-
 import { TestBed, async } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        RouterTestingModule
+      ],
       declarations: [
         AppComponent
       ],
@@ -24,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'profile-app'`, () => {
+  it(`should have as title 'composer-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.assignment).toEqual('profile-app');   // output from  export class
+    expect(app.title).toEqual('composer-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('profile-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('composer-app app is running!');
   });
 });
