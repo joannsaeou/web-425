@@ -1,3 +1,12 @@
+
+/**
+ * Title: composer-list.component.ts
+ * Author: Joann Saeou
+ * Date: 18 July 2020
+ * Description: Demonstrating  about  component Exercise 2.4 Routing in Action
+ */
+
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ComposerListComponent } from './composer-list.component';

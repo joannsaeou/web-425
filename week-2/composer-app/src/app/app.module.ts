@@ -1,3 +1,11 @@
+
+/**
+ * Title: app.module.ts
+ * Author: Joann Saeou
+ * Date: 18 July 2020
+ * Description: Demonstrating  about  component Exercise 2.4 Routing in Action
+ */
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
