@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "security-profile-app": {
+    "enhanced-profile-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/security-profile-app",
+            "outputPath": "dist/enhanced-profile-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "security-profile-app:build"
+            "browserTarget": "enhanced-profile-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "security-profile-app:build:production"
+              "browserTarget": "enhanced-profile-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "security-profile-app:build"
+            "browserTarget": "enhanced-profile-app:build"
           }
         },
         "test": {
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "security-profile-app:serve"
+            "devServerTarget": "enhanced-profile-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "security-profile-app:serve:production"
+              "devServerTarget": "enhanced-profile-app:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "security-profile-app"
+  "defaultProject": "enhanced-profile-app"
 }

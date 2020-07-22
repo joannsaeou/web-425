@@ -1,0 +1,14 @@
+/**
+ * Title: app.component.css
+ * Author: Joann Saeou
+ * Date: 08 July 2020
+ * Description: stylesheet for column
+ */
+
+.list-group {    /* right-column   */
+
+padding: 3px;
+radius: 50px;
+margin: 30px;
+
+}

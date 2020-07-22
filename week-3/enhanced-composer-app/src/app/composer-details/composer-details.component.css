@@ -1,0 +1,26 @@
+.list-group-item {
+
+    background-color:  rgba(91,92,110,1);
+    border: solid 2px;
+
+    border-radius: 300px;
+
+
+}
+
+p {
+    color: #e6b600;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+
+    color:#cccccc;
+}
+
+a {
+
+    color:#7cb4cc;
+    
+}

@@ -7,6 +7,7 @@
 
 
 .columnTwo, .columnOne {
+    
 
     padding: 60px;
     height: 500px;
@@ -21,6 +22,7 @@ h2 {padding: 20px;
     font-size: 46;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     clear: both;
+    color: #e6b600;
 
     
 
@@ -30,9 +32,15 @@ h2 {padding: 20px;
 h1 {
     font-size: 46px;
     clear: both;
-   
-    border-bottom: solid 3px;
+   color: #e6b600;
+    border-bottom: solid black 3px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+address, label {
+    color: #e6b600;
 
 
 }

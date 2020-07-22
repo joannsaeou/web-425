@@ -20,11 +20,10 @@ import { Composer } from '../composer.class';
   styleUrls: ['./composer-list.component.css']
 })
 export class ComposerListComponent implements OnInit {
+  composers: Array<IComposer>;
 
-  
-composers: Array<IComposer>;
   constructor() {
-    this.composers = new Composer().getComposers()   //created new instances for composer class
+    this.composers = new Composer().getComposers();   //created new instances for composer class
 
   }
 

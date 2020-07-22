@@ -16,3 +16,22 @@ main {
 
     background-color: rgba(91,92,110,1);
 }
+
+
+.nav-link {
+
+    color: #7cb4cc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: 20px;
+}
+
+.navbar-nav {
+    border: solid 2.5px;
+    font-stretch: wider;
+    
+
+    border-radius: 30px;
+
+
+}
