@@ -1,0 +1,27 @@
+  
+<!-- /**
+ * Title: app.component.html
+ * Author: Joann Saeou
+ * Date: 08 July 2020
+ * Description: Demonstrating  App component Exercise 1.5 
+ */--> 
+
+
+<ul class="list-group">
+    <li class="list-group-item"> <span>Name: </span>{{ myProfile.fullName }}</li>  <!-- variable created in app.componentst.ts -->
+    <li class="list-group-item"><span>Favorite Food: </span>{{ myProfile.favFood }}  </li>
+    <li class="list-group-item" > <span>Favorite Color:</span> {{ myProfile.favColor }} </li>
+    <li class="list-group-item">
+
+      Keywords: 
+
+      <span *ngFor="let word of myProfile.keywords"> 
+
+        {{ word }}
+        
+
+    </span>
+
+
+    </li>
+  </ul>

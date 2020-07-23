@@ -1,0 +1,24 @@
+/**
+ * Title: app.component.css
+ * Author: Joann Saeou
+ * Date: 08 July 2020
+ * Description: stylesheet for column
+ */
+
+.list-group {    /* right-column   */
+
+padding: 3px;
+radius: 100px;
+border-bottom-right-radius: 50px ;
+border-top-right-radius: 50px;
+margin: 30px;
+color: #001852;
+background-color: #f5e8c8;
+
+}
+
+span {
+
+    color: #e01f54;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,14 @@
+/**
+ * Title: signin.component.css
+ * Author: Professor Krasso
+ * Date: 23 July 2020
+ * Modified: Joann Saeou
+ * Description: signin component css (stylesheet)
+ */
+
+.signing-container {
+
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 10%;
+}

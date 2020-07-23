@@ -1,0 +1,19 @@
+/**
+ * Title: home.component.css
+ * Author: Professor Krasso
+ * Date: 23 July 2020
+ * Modified: Joann Saeou
+ * Description: Home component  CSS (stylesheet)
+ */
+
+.nav-link {
+ color:  #e01f54;
+    
+}
+
+
+h2 {
+
+    color: #e01f54;
+    border-bottom: solid black  2px;
+}
