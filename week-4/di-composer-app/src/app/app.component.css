@@ -1,0 +1,37 @@
+/**
+ * Title: app.component.css
+ * Author: Joann Saeou
+ * Date: 18 July 2020
+ * Description: Demonstrating  about  component Exercise 2.4 Routing in Action
+ */
+
+h2 {
+    background-color: rgba(91,92,110,1);
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main {
+
+    background-color: rgba(91,92,110,1);
+}
+
+
+.nav-link {
+
+    color: #7cb4cc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: 20px;
+}
+
+.navbar-nav {
+    border: solid 2.5px;
+    font-stretch: wider;
+    
+
+    border-radius: 30px;
+
+
+}

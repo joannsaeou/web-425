@@ -1,0 +1,46 @@
+/**
+ * Title: contact.component.css
+ * Author: Joann Saeou
+ * Date: 18 July 2020
+ * Description: Demonstrating  about  component Exercise 2.4 Routing in Action
+ */
+
+
+.columnTwo, .columnOne {
+    
+
+    padding: 60px;
+    height: 500px;
+    align-content: center;
+    border: solid 2px;
+
+
+}
+
+
+h2 {padding: 20px;
+    font-size: 46;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    clear: both;
+    color: #e6b600;
+
+    
+
+
+}
+
+h1 {
+    font-size: 46px;
+    clear: both;
+   color: #e6b600;
+    border-bottom: solid black 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+address, label {
+    color: #e6b600;
+
+
+}

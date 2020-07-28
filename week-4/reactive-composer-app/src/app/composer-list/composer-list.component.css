@@ -1,0 +1,21 @@
+/**
+ * Title: composer-list.component.css
+ * Author: Joann Saeou
+ * Date: 18 July 2020
+ * Description: Demonstrating  about  component Exercise 2.4 Routing in Action
+ */
+
+.table.table-hover {
+    color: #e6b600;
+}
+
+tr {
+    color: #e6b600;
+}
+
+.textSearch {
+    width: 30%;
+    float: right;
+    margin-bottom: 5px;
+    color: grey;
+}
