@@ -1,0 +1,17 @@
+/**
+ * Title: app.component.css
+ * Author: Professor Krasso
+ * Date: 05 August 2020
+ * Modified: Joann Saeou
+ * Description:css style sheet
+ */
+
+.logo {
+    margin-top: 5px;
+}
+
+.main-container {
+    padding-top: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
