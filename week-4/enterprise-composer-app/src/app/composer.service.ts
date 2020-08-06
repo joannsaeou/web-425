@@ -1,8 +1,16 @@
+/**
+ * Title: composer.service.ts
+ * Author: Joann Saeou
+ * Date: 29 July 2020
+ * Description: composer service for demonstrating observable Async pipe
+ */
+
+
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
 import { Observable } from 'rxjs';
 import { of } from 'rxjs';
-import{ map } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 
 @Injectable({
@@ -24,7 +32,7 @@ export class ComposerService {
   }
 
   getComposers(): Observable<IComposer[]> {
-      return of(this.composers);
+      return of (this.composers);
 
   }
 
@@ -37,11 +45,12 @@ export class ComposerService {
               }
           }
       }
+      filterComposers(name: string): Observable<IComposer[]> {
+        return of (this.composers).pipe(
+          map(composers =>
+            composers.filter(composer => composer.fullName.toLowerCase().indexOf(name) > -1)))
+    }
 }
 
-filterComposers(name: string): Observable<IComposer[]> {
-    return of(this.composers).pipe(
-      map(composers =>
-        composers.filter(composer => composer.fullName.toLowerCase().indexOf(name) > -1)))
-}
-}
+
+
