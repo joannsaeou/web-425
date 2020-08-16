@@ -14,6 +14,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  assignment: string = 'Exercise 4.3 - Handling Events with Observables';
-  title: string = 'composer-app';
+  assignment = 'Exercise 4.3 - Handling Events with Observables';
+  title = 'composer-app';
 }
