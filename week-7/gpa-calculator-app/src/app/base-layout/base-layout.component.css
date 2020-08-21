@@ -1,0 +1,14 @@
+.layout-row {
+    border: 3px solid black;
+    float: left;
+    padding: 100px;
+}
+
+.gpa {
+    float: center;
+    clear: both;
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 15px;
+}
