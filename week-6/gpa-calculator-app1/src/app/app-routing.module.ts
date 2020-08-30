@@ -1,3 +1,11 @@
+// *
+//  * Title:app-routing.module.ts
+//  * Author: Joann Saeou
+//  * Date: 30 August 2020
+//  * Description:fixing code attribution
+
+
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseLayoutComponent } from './base-layout/base-layout.component';
