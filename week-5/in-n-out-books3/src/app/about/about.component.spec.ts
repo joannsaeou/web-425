@@ -1,3 +1,11 @@
+/**
+ * Title:about.component.spec.tc
+ * Author: Joann Saeou
+ * Date: 30 August 2020
+ * Description:fixing code attribution
+ */
+
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AboutComponent } from './about.component';
