@@ -1,3 +1,11 @@
+/* <!-- /**
+ * Title:app.module.ts
+ * Author: Joann Saeou
+ * Date: 30 August 2020
+ * Description:fixing code attribution
+ */
+
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
