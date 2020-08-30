@@ -10,7 +10,7 @@ export class SignInGuard implements CanActivate {
 
   constructor(private router: Router, private cookieService: CookieService) {}
 
-  // tslint:disable-next-line:typedef
+ // tslint:disable-next-line:typedef
   canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     const sessionUser = this.cookieService.get('session_user');
 

@@ -17,11 +17,6 @@ import { SignInGuard } from './sign-in.guard';
 
 const routes: Routes = [
   {
-
-    path: 'home',
-    component: HomeComponent
-  },
-  {
     path: '',
     component: BaseLayoutComponent,
     children: [
@@ -30,7 +25,7 @@ const routes: Routes = [
         component: HomeComponent
       }
     ],
-    canActivate: [SignInComponent]
+    canActivate: [SignInGuard]
   },
   {
     path: 'session',
@@ -43,10 +38,6 @@ const routes: Routes = [
       {
         path: 'sign-in',
         component: SignInComponent
-      },
-      {
-        path: './home',
-        component: HomeComponent
       }
     ]
   },
