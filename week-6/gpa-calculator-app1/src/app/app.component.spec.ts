@@ -1,3 +1,10 @@
+/**
+ * Title:app.component.spec.ts
+ * Author: Joann Saeou
+ * Date: 30 August 2020
+ * Description:fixing code attribution
+ */
+
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
