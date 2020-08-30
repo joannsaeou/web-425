@@ -1,3 +1,11 @@
+/**
+ * Title:books-details=dialog.component.ts
+ * Author: Joann Saeou
+ * Date: 30 August 2020
+ * Description:fixing code attribution
+ */
+
+
 import { Component, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
 import { IBook } from '../book.interface';
