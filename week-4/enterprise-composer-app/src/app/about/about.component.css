@@ -1,14 +1,15 @@
-h2, q {
+/* <!-- /**
+ * Title:about.component.css
+ * Author: Joann Saeou
+ * Date: 30 August 2020
+ * Description:fixing code attribution
+ */
 
+h2,
+q {
     color: #e6b600;
-
-
 }
 
-
 span {
-
     color: #e6b600;
-
-
 }

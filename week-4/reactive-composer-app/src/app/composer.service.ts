@@ -1,3 +1,10 @@
+// <!-- /**
+//  * Title:composer.service.ts
+//  * Author: Joann Saeou
+//  * Date: 30 August 2020
+//  * Description:fixing code attribution
+//  */ -->
+
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
 
